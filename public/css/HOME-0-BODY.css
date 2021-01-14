@@ -1,0 +1,21 @@
+/* GENERAL */
+body {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+/* FONTS ESPECÍFICOS */
+h3 {
+    font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* ALINEACIÓN ESPECÍFICA */
+.izquierda {text-align: left}
+.centrado {text-align: center}

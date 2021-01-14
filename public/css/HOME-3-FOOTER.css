@@ -1,0 +1,19 @@
+/* GENERAL */
+footer {
+    color: #666;
+    text-align: center;
+
+}
+
+/* FONTS ESPECÍFICOS*/
+.precio {font-size: 18px}
+.descuento {font-size: 16px}
+.descripción {font-size: 16px}
+
+/* ÍCONOS */
+.icono {
+    margin-block-start: 40px;
+    font-size: 24px;
+    color: blue;
+}
+

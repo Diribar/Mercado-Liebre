@@ -1,0 +1,22 @@
+/* GENERAL */
+header {
+    background-color: #EAC926;
+}
+
+/* MARGEN */
+.margen {padding: 16px}
+.espacio-anterior {margin-block-start: 10px;}
+
+/* QUITAR DOTS DE LOS LISTADOS */
+header li {list-style-type: none}
+header a {
+    text-decoration: none;
+    color:black;
+}
+
+/* ICONO de la HAMBURGUESA */
+#burger-menu {
+    color: #ebebeb;
+    background-color: #073DAE;
+    font-size: 24px;
+}
