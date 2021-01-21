@@ -1,0 +1,16 @@
+/* FORMATO PARA MOBILE */
+@media (max-width: 360px) {
+    #descripción {display: none}
+    header nav {display: none}
+}
+
+/* FORMATO PARA TABLET */
+@media (min-width: 361px) {
+    main section article {box-shadow: 0px 0px 10px rgb(100, 100, 100)}
+    #burger-menu {display: none}
+}
+
+/* FORMATO PARA DESKTOP */
+@media (min-width: 769px) {
+    
+}

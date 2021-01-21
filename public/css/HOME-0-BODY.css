@@ -2,20 +2,33 @@
 body {
     font-family: Roboto;
     font-size: 12px;
+    margin:0px;
 }
-
-/* FONTS ESPECÍFICOS */
-h3 {
-    font-size: 18px;
+* {
+    box-sizing: border-box;
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
-p {
-    margin-block-start: 0;
-    margin-block-end: 0;
+/* ESTILOS y CLASES ESPECÍFICOS */
+h2 {
+    font-size: 24px;
+    margin-block-end: 18px;
 }
-
-/* ALINEACIÓN ESPECÍFICA */
+h3 {font-size: 18px}
+.w50 {width:50%}
+.w100 {width: 100%}
 .izquierda {text-align: left}
 .centrado {text-align: center}
+
+/* PALETA DE COLORES */
+body {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+    --Negro: black;
+    --Blanco: white;
+}

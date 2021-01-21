@@ -1,0 +1,34 @@
+/* GENERAL */
+main {
+    background-color: var(--Gris-claro);
+}
+
+/* SECCIONES DE ARTÍCULOS */
+main section {
+    width: 90vw;
+    margin: 10px auto;
+}
+main section img {width: 100%}
+/* SEPARACIÓN ENTRE ARTÍCULOS */
+main article {margin-bottom: 10px}
+/* FORMATO PARA LA "CAJA" CAMIONCITO-PRECIO-DESCUENTO-DESCRIPCIÓN */
+main article div {
+    border-top: 1px solid var(--Gris-claro);
+    padding: 15px;
+    background-color: var(--Blanco)
+}
+/* FONTS ESPECÍFICOS*/
+#precio {font-size: 18px}
+#descuento, #descripción {font-size: 16px}
+#descuento {color: var(--Verde)}
+
+/* LOGO DEL CAMIONCITO */
+#camioncito {
+    font-size: 16px;
+    color: var(--Verde);
+    padding: 7px;
+    width: 35px;
+    height: 35px;
+    border: 2px solid var(--Verde);
+    border-radius: 50%;
+  }

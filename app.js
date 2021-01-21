@@ -6,5 +6,5 @@ app.listen(3000, () => console.log('Servidor funcionando...'))
 app.use(express.static(path.resolve('public')));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve('views/home.html'))
+    res.sendFile(path.resolve(__dirname, 'views/home.html'))
 })

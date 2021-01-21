@@ -1,19 +1,17 @@
 /* GENERAL */
 footer {
-    color: #666;
+    color: var(--Gris-oscuro);
     text-align: center;
-
+    padding: 24px;
 }
-
-/* FONTS ESPECÍFICOS*/
-.precio {font-size: 18px}
-.descuento {font-size: 16px}
-.descripción {font-size: 16px}
 
 /* ÍCONOS */
-.icono {
-    margin-block-start: 40px;
-    font-size: 24px;
-    color: blue;
+footer i {
+    margin-top: 40px;
+    font-size: 2.5em;
+    color: var(--Celeste);
+    margin-bottom: 10px
 }
 
+/* COPYRIGHT */
+#copyright {margin-top: 40px}
