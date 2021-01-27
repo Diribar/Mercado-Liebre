@@ -4,34 +4,21 @@
     header nav {display: none}
     /* OCULTAR LA DESCRIPCIÓN DEL ARTÍCULO */
     #descripción {display: none}
-    #logo-buscar-y-cuotas #búsqueda input, #logo-buscar-y-cuotas #búsqueda button {
-        border: none;
-        padding: 7px;
-        top: -13px;
-        border-radius: 10px
-    }
 }
 
 
 /* FORMATO PARA TABLET */
 @media (min-width: 768px) {
-    /* OCULTAR EL ÍCONO DE HAMBURGUESA */
+    /* ENCABEZADO --> OCULTAR EL ÍCONO DE HAMBURGUESA */
     #burger-menu {display: none}
-    /* ENCABEZADO . PRIMERA FILA EN 3 PARTES */
-    #logo-buscar-y-cuotas #logo-ML {width: 33%}
-    #logo-buscar-y-cuotas #búsqueda {width: 25%}
-    #logo-buscar-y-cuotas {
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    /* FORMATO FLEX A LA SECCIONES DE CAJAS DE ARTÍCULOS */
-    main section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    /* FORMATO A LA 'CAJA' DE CADA ARTÍCULO (IMAGEN + BOX) */
+    /* ENCABEZADO --> PRIMERA FILA EN 3 PARTES */
+    header section#logo-buscar-y-cuotas div {width: 33%}
+    /* ENCABEZADO --> SEGUNDA FILA EN 2 PARTES */
+    header nav {display: flex;justify-content: space-around;}
+    header nav ul {display: flex;justify-content: space-evenly;width: 45%;}
+    /* SECCIONES DE CAJAS DE ARTÍCULOS - FORMATO FLEX */
+    main section {display: flex;flex-wrap: wrap;justify-content: space-between;}
+    /* CAJA' DE CADA ARTÍCULO (IMAGEN + BOX) - FORMATO */
     main section article {box-shadow: 0px 0px 10px rgb(100, 100, 100)}
     main section article {width:47%}
 }

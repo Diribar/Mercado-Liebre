@@ -1,23 +1,19 @@
 /* GENERAL */
 header {background-color: var(--Amarillo)}
 
-/* CONFIGURACIÓN DEL LOGO */
-#logo-buscar-y-cuotas #logo-ML {width: 50%}
-#logo-buscar-y-cuotas #logo-ML img {
-    padding: 10px;
-    width:100%;
-}
-
-/* CONFIGURACIÓN DE BÚSQUEDA */
-#logo-buscar-y-cuotas #búsqueda {
-    position: relative;
-    width: 50%;
-}
+/* CONFIGURACIÓN DEL LOGO Y BÚSQUEDA*/
+header section#logo-buscar-y-cuotas div {width: 50%}
+#logo-buscar-y-cuotas #logo-ML img {padding: 10px;width:100%;}
+#logo-buscar-y-cuotas #búsqueda {position: relative;}
+#logo-buscar-y-cuotas #búsqueda input {width: 85%;}
 #logo-buscar-y-cuotas #búsqueda input, #logo-buscar-y-cuotas #búsqueda button {
     position: absolute;
     right: 10px;
     top: -5px;
 }
+#logo-buscar-y-cuotas #búsqueda input, #logo-buscar-y-cuotas #búsqueda button {
+    border: none;padding: 7px;top: -13px;border-radius: 10px}
+
 
 /* SEPARACIONES VARIAS */
 header section {padding: 16px}
@@ -27,7 +23,7 @@ header ul {padding: 8px}
 #logo-buscar-y-cuotas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
