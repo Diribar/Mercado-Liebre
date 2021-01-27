@@ -1,0 +1,9 @@
+/* GENERAL */
+main {background-color: var(--Gris-claro);}
+
+form {margin-left: 30px;margin-top: 10px;margin-bottom: 20px;}
+form div {padding-top: 15px;}
+form input {border: none;}
+form button {margin-right: 10px;}
+form input, form button, span {padding: 5px 10px;border-radius: 10%;}
+span {background-color:red; color: white; font-weight: bold;}

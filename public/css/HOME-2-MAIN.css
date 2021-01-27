@@ -1,17 +1,18 @@
 /* GENERAL */
-main {
-    background-color: var(--Gris-claro);
-}
+main {background-color: var(--Gris-claro);}
 
 /* SECCIONES DE ARTÍCULOS */
-main section, main h2 {
-    width: 90vw;
-    margin: 10px auto;
-}
+main h2 {width: 90vw;margin: 10px auto 10px;}
+main section {width: 90vw;margin: 10px auto 25px;}
 main section img {width: 100%}
 
 /* SEPARACIÓN ENTRE ARTÍCULOS */
 main section article {margin-bottom: 10px}
+
+/* FONTS ESPECÍFICOS*/
+#precio {font-size: 18px;margin-right: 10px;}
+#descuento {color: var(--Verde);}
+#descuento, #descripción {font-size: 16px}
 
 /* FORMATO PARA LA "CAJA" CAMIONCITO-PRECIO-DESCUENTO-DESCRIPCIÓN */
 #box-articulo {
@@ -21,16 +22,6 @@ main section article {margin-bottom: 10px}
     position: relative;
     width: 100%;
 }
-
-/* FONTS ESPECÍFICOS*/
-#precio {
-    font-size: 18px;
-    margin-right: 10px;
-}
-#descuento {
-    color: var(--Verde);
-}
-#descuento, #descripción {font-size: 16px}
 
 /* LOGO DEL CAMIONCITO */
 #camioncito {
