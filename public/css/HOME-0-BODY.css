@@ -1,35 +1,22 @@
 /* GENERAL */
-body, * {
-    font-family: Roboto;
-    font-size: 14px;
-    margin:0px;
-    padding: 0px;
-}
-body {
-    display: flex;
-    flex-direction: column;
-}
+body, * {font-family: Roboto;font-size: 14px;margin:0px;padding: 0px;}
+body {display: flex;flex-direction: column;}
 * {box-sizing: border-box;}
 
 /* ESTILOS y CLASES ESPECÍFICOS */
-h2 {
-    font-size: 24px;
-    margin-block-end: 18px;
-}
+h2 {font-size: 24px;margin-block-end: 18px;}
 h3 {font-size: 18px}
 .w50 {width:50%}
 .w100 {width: 100%}
 .izquierda {text-align: left}
 .centrado {text-align: center}
-.misma-fila {
-    display: flex;
-    align-items:flex-end;
-}
+.misma-fila {display: flex;align-items:flex-end;}
 
 /* PALETA DE COLORES */
 body {
     --Amarillo: #EAC926;
     --Azul: #03264C;
+    --otro-Azul:#0022AA;
     --Celeste: #1259c3;
     --Gris-oscuro: #666666;
     --Gris-claro: #ebebeb;

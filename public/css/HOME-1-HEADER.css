@@ -6,37 +6,19 @@ header section#logo-buscar-y-cuotas div {width: 50%}
 #logo-buscar-y-cuotas #logo-ML img {padding: 10px;width:100%;}
 #logo-buscar-y-cuotas #búsqueda {position: relative;}
 #logo-buscar-y-cuotas #búsqueda input {width: 85%;}
-#logo-buscar-y-cuotas #búsqueda input, #logo-buscar-y-cuotas #búsqueda button {
-    position: absolute;
-    right: 10px;
-    top: -5px;
-}
-#logo-buscar-y-cuotas #búsqueda input, #logo-buscar-y-cuotas #búsqueda button {
-    border: none;padding: 7px;top: -13px;border-radius: 10px}
-
+#logo-buscar-y-cuotas #búsqueda input, #logo-buscar-y-cuotas #búsqueda button {position: absolute;right: 10px;top: -5px;}
+#logo-buscar-y-cuotas #búsqueda input, #logo-buscar-y-cuotas #búsqueda button {border: none;padding: 7px;top: -13px;border-radius: 10px}
 
 /* SEPARACIONES VARIAS */
 header section {padding: 16px}
 header ul {padding: 8px}
 
 /* DISTRIBUCIÓN DE LOGO-BUSCAR-Y-CUOTAS */
-#logo-buscar-y-cuotas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
+#logo-buscar-y-cuotas {display: flex;flex-wrap: wrap;justify-content: space-around;align-items: center;}
 
 /* QUITAR DOTS Y SUBRAYADO DE LOS LISTADOS */
 header li {list-style-type: none}
-header a {
-    text-decoration: none;
-    color:var(--Negro);
-}
+header a {text-decoration: none;color:var(--Negro);}
 
 /* ICONO de la HAMBURGUESA */
-#burger-menu {
-    color:var(--Gris-claro);
-    background-color: var(--Celeste);
-    font-size: 24px;
-}
+#burger-menu {color:var(--Gris-claro);background-color: var(--Celeste);font-size: 24px;}

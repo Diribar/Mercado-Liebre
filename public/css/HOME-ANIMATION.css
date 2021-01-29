@@ -1,0 +1,10 @@
+main section article #descripción {color:white;transition: color 1s;}
+main section article:hover #descripción {color:black;}
+
+main section article {transition: box-shadow .25s;}
+main section article:hover {box-shadow: 0px 0px 10px rgb(100, 100, 100)}
+
+main section article:hover #camioncito {transform: rotate(360deg);transition: transform 1s;}
+
+button#Enviar {transition: background-color 1s, color 1s;}
+button#Enviar:hover {background-color: var(--otro-Azul);color: var(--Gris-claro)}
