@@ -1,9 +1,3 @@
-/* FORMATO PARA MOBILE */
-@media (max-width: 767px) {
-    /* OCULTAR EL MENÚ CON LAS OPCIONES */
-    header nav {display: none}
-}
-
 /* FORMATO PARA TABLET */
 @media (min-width: 768px) {
     /* ENCABEZADO --> OCULTAR EL ÍCONO DE HAMBURGUESA */

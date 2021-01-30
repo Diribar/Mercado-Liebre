@@ -16,9 +16,10 @@ header ul {padding: 8px}
 /* DISTRIBUCIÓN DE LOGO-BUSCAR-Y-CUOTAS */
 #logo-buscar-y-cuotas {display: flex;flex-wrap: wrap;justify-content: space-around;align-items: center;}
 
-/* QUITAR DOTS Y SUBRAYADO DE LOS LISTADOS */
+/* LISTADOS DE OPCIONES Y LOGIN */
+header nav {display: none;}
 header li {list-style-type: none}
 header a {text-decoration: none;color:var(--Negro);}
 
 /* ICONO de la HAMBURGUESA */
-#burger-menu {color:var(--Gris-claro);background-color: var(--Celeste);font-size: 24px;}
+#burger-menu {color:var(--Gris-claro);background-color: var(--Celeste);font-size: 24px;padding: 0px 10px;border-radius: 5px;}
